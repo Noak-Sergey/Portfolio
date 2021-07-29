@@ -1,0 +1,15 @@
+.DWBlock {
+    height: 100vh;
+    background-color: #f1c5b5;
+}
+
+.hiText {
+    border: 3px dashed green;
+    background-color: #e8e8ee;
+    width: 500px;
+    text-align: center;
+}
+.button {
+
+}
+

@@ -1,0 +1,20 @@
+.worksBlock {
+    height: 100vh;
+    background-color: #bdecea;
+}
+.worksContainer{
+    flex-direction:column ;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #f3ecec;
+}
+
+.works {
+    border: 1px dashed green;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}

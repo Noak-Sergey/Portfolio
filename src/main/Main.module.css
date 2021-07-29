@@ -1,0 +1,17 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #e9d0ee;
+}
+
+.hiText {
+    border: 3px dashed green;
+    background-color: #e8e8ee;
+    width: 300px;
+}
+
+.photo {
+    border: 3px dashed green;
+    background-color: #e8e8ee;
+    width: 300px;
+    height: 400px;
+}
