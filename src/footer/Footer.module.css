@@ -1,9 +1,10 @@
-.worksBlock {
+.footerBlock {
     height: 100vh;
-    background-color: #bdecea;
+    background-color: #eedea1;
 }
-.worksContainer{
-    flex-direction:column ;
+
+.footerContainer {
+    flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -11,9 +12,9 @@
     background-color: #f3ecec;
 }
 
-.works {
+.footer {
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
