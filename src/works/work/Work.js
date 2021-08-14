@@ -6,7 +6,7 @@ import style from './Work.module.css';
 export function Work(props) {
     return (
         <div className={style.work}>
-            <div className={style.image}>
+            <div className={style.imgContainer}>
                 <h6>Picture</h6>
                 <button>look</button>
             </div>

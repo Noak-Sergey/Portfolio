@@ -1,5 +1,4 @@
 .footerBlock {
-    height: 100vh;
     background-color: #eedea1;
 }
 
@@ -9,10 +8,11 @@
 }
 
 .title {
-    background-color: #f3ecec;
+    background-color: #638be1;
 }
 
 .footer {
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
