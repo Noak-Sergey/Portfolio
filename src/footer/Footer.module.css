@@ -11,10 +11,16 @@
     background-color: #638be1;
 }
 
-.footer {
+.footers {
     margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.footerIcon {
+    width:50px;
+    height: 50px;
+    background-color: #fff;
 }

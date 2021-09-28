@@ -1,7 +1,7 @@
 import React from "react";
 import style from './Footer.module.css';
 import styleContainer from '../common/styles/Container.module.css'
-import {BlockFooter} from "./blockFooter/BlockFooter";
+
 
 
 export function Footer() {
@@ -9,11 +9,11 @@ export function Footer() {
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h2 className={style.title}>Footer</h2>
-                <div className={style.footer}>
-                    <BlockFooter/>
-                    <BlockFooter/>
-                    <BlockFooter/>
-                    <BlockFooter/>
+                <div className={style.footers}>
+                    <div className={style.footerIcon}></div>
+                    <div className={style.footerIcon}></div>
+                    <div className={style.footerIcon}></div>
+                    <div className={style.footerIcon}></div>
                 </div>
             </div>
         </div>
