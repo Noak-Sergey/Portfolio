@@ -10,10 +10,10 @@ export function Skills() {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
+                    <Skill title={'React & Redux'} description={'It is cool'}/>
+                    <Skill title={'JS & TS'} description={'It is really cool'}/>
                     <Skill title={'HTML & CSS'} description={'bla bla bla'}/>
-                    <Skill title={'JS & TS'} description={'yo YO Yo'}/>
-                    <Skill title={'React'} description={'bla bla bla'}/>
-                    <Skill title={'Redux'} description={'yo YO Yo'}/>
+                    <Skill title={'Free'} description={'yo YO Yo'}/>
                 </div>
             </div>
         </div>

@@ -1,10 +1,9 @@
 .ContactBlock {
-    height: 100vh;
-    background-color: #9cd28c;
+    background-color: #fff;
     text-align: center;
 }
 .text {
-    background-color: #f5f5f5;
+    background-color: #d9d9e5;
 }
 
 * {
@@ -16,7 +15,7 @@
 .form_wrapper {
     width: 280px;
     margin: 20px auto;
-    background-color: #f5f5f5;
+    background-color: #d9d9e5;
     border-radius: 5px;
     font-size: 16px;
 }

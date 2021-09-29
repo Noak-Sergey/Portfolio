@@ -1,6 +1,6 @@
 .worksBlock {
-    height: 100vh;
-    background-color: #bdecea;
+    /*height: 100vh;*/
+    background-color: #fff;
 }
 .worksContainer{
     flex-direction:column ;
@@ -8,7 +8,13 @@
 }
 
 .title {
-    background-color: #e78d8d;
+    background-color: #d9d9e5;
+}
+
+.title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #666;
 }
 
 .works {

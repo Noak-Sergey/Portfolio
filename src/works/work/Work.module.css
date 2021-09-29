@@ -14,10 +14,9 @@
     background-color: green;
 }
 
-/*.viewBtn {*/
-/*    background-color: #eeeef5;*/
-/*    padding: 1px 5px;*/
-/*}*/
+.viewBtn {
+    background-color: #d9d9e5;
+}
 
 .description {
 background-color: #ddecbd;

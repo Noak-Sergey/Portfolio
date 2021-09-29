@@ -15,6 +15,7 @@ export function Footer() {
                     <div className={style.footerIcon}></div>
                     <div className={style.footerIcon}></div>
                 </div>
+                <span className={style.copyright}>2021 Все права защищены</span>
             </div>
         </div>
     )
