@@ -6,6 +6,7 @@
     align-items: center;
     text-align: center;
     border: 1px dashed;
+    margin-top: 30px;
 }
 
 .imgContainer {
@@ -19,5 +20,5 @@
 }
 
 .description {
-background-color: #ddecbd;
+    background-color: #ddecbd;
 }
