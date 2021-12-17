@@ -1,0 +1,22 @@
+@import '../common/styles/sass/variables';
+
+
+.worksBlock {
+  background-color: $bgColor;
+  //padding: 100px 0;
+
+  .worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .works {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+
