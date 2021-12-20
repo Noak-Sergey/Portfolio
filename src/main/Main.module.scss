@@ -1,0 +1,23 @@
+@import '../common/styles/sass/variables';
+
+.mainBlock {
+  //height: 100vh;
+  background-color: $bgColor;
+
+  .hiText {
+    border: 1px dashed $primaryColor;
+    width: 300px;
+    color: $textColor
+  }
+
+  .photo {
+    border: 1px dashed $primaryColor;
+    background-color: $bgSecondColor;
+    width: 300px;
+    height: 400px;
+  }
+}
+
+
+
+
