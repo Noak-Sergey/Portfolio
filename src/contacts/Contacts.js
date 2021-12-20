@@ -1,6 +1,7 @@
 import React from "react";
-import style from './Contacts.module.css';
+import style from './Contacts.module.scss';
 import styleContainer from './../common/styles/Container.module.css';
+import {Title} from "../common/components/title/Title";
 
 
 export function Contacts() {
@@ -8,7 +9,7 @@ export function Contacts() {
         <div className={style.ContactBlock}>
             <div className={styleContainer.container}>
                 <div>
-                    <span className={style.text}>Contacts</span>
+                    <Title text={'Contacts'}/>
                     <div className={style.form_wrapper}>
                         <form>
                             <ul>

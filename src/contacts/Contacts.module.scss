@@ -1,0 +1,53 @@
+.ContactBlock {
+  background-color: #fff;
+  text-align: center;
+
+  .form_wrapper {
+    width: 280px;
+    margin: 30px auto;
+    background-color: #d9d9e5;
+    border-radius: 5px;
+    font-size: 16px;
+
+    ul {
+      list-style-type: none;
+
+      .form_line {
+        display: flex;
+        justify-content: flex-end;
+        padding: 8px;
+        color: #666;
+      }
+
+      .form_line > label {
+        padding: 8px 16px 8px 0;
+        flex: 1;
+      }
+
+      .form_line > input {
+        flex: 2;
+        padding: 8px;
+      }
+
+      .form_line > button {
+        background: #808080;
+        color: #fff;
+        border: 5px;
+        padding: 8px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+
