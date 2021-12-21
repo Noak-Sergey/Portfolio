@@ -1,6 +1,7 @@
 import React from "react";
-import style from './Footer.module.css';
+import style from './Footer.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
+import {Title} from "../common/components/title/Title";
 
 
 
@@ -15,7 +16,10 @@ export function Footer() {
                     <div className={style.footerIcon}></div>
                     <div className={style.footerIcon}></div>
                 </div>
-                <span className={style.copyright}>2021 Все права защищены</span>
+                <div className={style.copyright}>
+                    2021 Все права защищены
+                </div>
+
             </div>
         </div>
     )

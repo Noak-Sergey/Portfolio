@@ -1,0 +1,43 @@
+@import '../common/styles/sass/variables';
+
+.footerBlock {
+  background-color: $bgColor;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    color: $textColor;
+
+    .title {
+      //background-color: $bgSecondColor;
+      margin-top: 10px;
+    }
+
+    .footers {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .footerIcon {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: $bgSecondColor;
+        border: 1px dashed $primaryColor;
+      }
+    }
+    .copyright {
+      margin-top: 15px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

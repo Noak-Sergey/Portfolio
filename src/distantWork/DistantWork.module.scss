@@ -1,0 +1,30 @@
+@import '../common/styles/sass/variables';
+
+.DWBlock {
+  background-color: $bgColor;
+
+  .hiText {
+    //border: 1px dashed $primaryColor;
+    // background-color: #d9d9e5;
+    width: 500px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    color: $textColor;
+
+    .wrapBtn {
+
+      .button {
+        color: $textColor;
+        background-color: $bgColorBtn;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 import React from "react";
-import style from './DistantWork.module.css';
+import style from './DistantWork.module.scss';
 import styleContainer from './../common/styles/Container.module.css';
 
 
@@ -9,7 +9,7 @@ export function DistantWork() {
             <div className={styleContainer.container}>
                 <div className={style.hiText}>
                     <span>Considering options for remote work</span>
-                    <div>
+                    <div className={style.wrapBtn}>
                         <button className={style.button}>Send offer</button>
                     </div>
                 </div>
