@@ -1,9 +1,14 @@
 @import '../common/styles/sass/variables.scss';
 
 .nav {
-    border: 1px solid;
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    color: $textColor;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.nav a {
+  text-decoration: none;
+  color: $textColor;
+  font-weight: 600
+}
+
