@@ -1,13 +1,20 @@
+@import '../common/styles/sass/variables';
+
 .ContactBlock {
-  background-color: #fff;
-  text-align: center;
+  background-color: $bgColor;
+
+  .title {
+
+  }
 
   .form_wrapper {
     width: 280px;
     margin: 30px auto;
-    background-color: #d9d9e5;
+    background-color: $bgSecondColor;
     border-radius: 5px;
     font-size: 16px;
+    border: 2px solid $primaryColor;
+
 
     ul {
       list-style-type: none;
@@ -16,7 +23,15 @@
         display: flex;
         justify-content: flex-end;
         padding: 8px;
-        color: #666;
+        color: $textColor;
+      }
+
+      .form_line input {
+        border: 1px solid $primaryColor;
+      }
+
+      .form_line textarea {
+        border: 1px solid $primaryColor;
       }
 
       .form_line > label {
@@ -30,9 +45,9 @@
       }
 
       .form_line > button {
-        background: #808080;
-        color: #fff;
-        border: 5px;
+        background: $primaryColor;
+        color: $textColor;
+        border: none;
         padding: 8px;
         border-radius: 5px;
         cursor: pointer;

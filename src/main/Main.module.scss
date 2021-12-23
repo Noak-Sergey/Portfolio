@@ -5,9 +5,12 @@
   background-color: $bgColor;
 
   .hiText {
-    border: 1px dashed $primaryColor;
+    border: 2px solid $primaryColor;
     width: 300px;
-    color: $textColor
+    color: $textColor;
+    //background-color: $primaryColor;
+    margin: 30px auto;
+    border-radius: 5px;
   }
 
   .photo {

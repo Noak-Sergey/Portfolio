@@ -4,6 +4,8 @@
   width: 300px;
   display: flex;
   justify-content: space-between;
+  align-content: stretch;
+  margin: auto 50px;
 }
 
 .nav a {
