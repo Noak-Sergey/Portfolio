@@ -4,7 +4,7 @@
 
 .work {
   width: 250px;
-  background-color: $bgSecondColor;
+  //background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +21,8 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    border: 3px solid $primaryColor;
+    border-radius: 45px;
 
     &::before {
       position: absolute;
@@ -31,10 +33,11 @@
       left: 0;
       right: 0;
       opacity: 0.2;
+      border-radius: 45px;
     }
 
     .viewBtn {
-      background-color: $bgColorBtn;
+      background-color: $primaryColor;
       font-family: inherit;
       padding: 10px 20px;
       position: relative;

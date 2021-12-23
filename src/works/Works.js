@@ -5,6 +5,7 @@ import {Work} from './work/Work';
 import {Title} from '../common/components/title/Title';
 import todoImg from '../assets/images/todo.jpg';
 import socialImg from '../assets/images/social_network.jpg';
+import learnCardsImg from '../assets/images/learnCardImg.jpg';
 
 
 export function Works() {
@@ -16,6 +17,10 @@ export function Works() {
         backgroundImage: `url(${todoImg})`,
     }
 
+    const learnCards = {
+        backgroundImage: `url(${learnCardsImg})`,
+    }
+
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
@@ -23,6 +28,7 @@ export function Works() {
                 <div className={style.works}>
                     <Work style={todos} title={'Todolist'} description={'Project description'} />
                     <Work style={social} title={'Social-Network'} description={'Project description'}/>
+                    <Work style={learnCards} title={'Learning-Cards'} description={'Project description'}/>
                 </div>
             </div>
         </div>
