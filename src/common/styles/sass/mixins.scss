@@ -6,3 +6,9 @@
   line-height: $lineHeight;
   color: $textColor;
 }
+
+@mixin bgImg() {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}

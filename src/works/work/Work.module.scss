@@ -18,9 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    @include bgImg();
     border: 3px solid $primaryColor;
     border-radius: 45px;
 
