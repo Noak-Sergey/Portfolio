@@ -35,14 +35,9 @@
     }
 
     .viewBtn {
-      background-color: $primaryColor;
-      font-family: inherit;
+      @include btnSetting();
       padding: 10px 20px;
       position: relative;
-      border-radius: 5px;
-      cursor: pointer;
-      color: $textColor;
-      border: none;
     }
   }
 

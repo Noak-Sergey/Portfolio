@@ -1,4 +1,5 @@
 @import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
 .ContactBlock {
   background-color: $bgColor;
@@ -45,12 +46,8 @@
       }
 
       .form_line > button {
-        background: $primaryColor;
-        color: $textColor;
-        border: none;
+        @include btnSetting();
         padding: 8px;
-        border-radius: 5px;
-        cursor: pointer;
       }
     }
   }
