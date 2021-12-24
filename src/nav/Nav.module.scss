@@ -5,12 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-content: stretch;
-  margin: auto 50px;
+  margin: auto 100px;
 }
 
 .nav a {
   text-decoration: none;
-  color: $primaryColor;
+  color: $textColor;
   font-weight: 600
 }
 

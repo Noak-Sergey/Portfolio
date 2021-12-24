@@ -5,7 +5,7 @@
   background-color: $bgColor;
 
   .hiText {
-    border: 2px solid $primaryColor;
+    //border: 2px solid $primaryColor;
     width: 300px;
     color: $textColor;
     //background-color: $primaryColor;
@@ -14,7 +14,7 @@
   }
 
   .photo {
-    border: 1px dashed $primaryColor;
+    border: 2px solid $primaryColor;
     background-color: $bgSecondColor;
     width: 300px;
     height: 400px;
