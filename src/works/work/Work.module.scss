@@ -38,6 +38,11 @@
       @include btnSetting();
       padding: 10px 20px;
       position: relative;
+
+    }
+
+    .viewBtn:active {
+      background: rgb(238, 165, 157);
     }
   }
 

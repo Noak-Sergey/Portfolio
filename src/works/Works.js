@@ -21,14 +21,18 @@ export function Works() {
         backgroundImage: `url(${learnCardsImg})`,
     }
 
+    const linkProjectCard = 'https://noak-sergey.github.io/project-cards/'
+    const linkSocialNetwork = 'https://noak-sergey.github.io/project-cards/'
+    const linkTodos = 'https://noak-sergey.github.io/project-cards/'
+
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <Title text={'My works'}/>
                 <div className={style.works}>
-                    <Work style={todos} title={'Todolist'} description={'Project description'} />
-                    <Work style={social} title={'Social-Network'} description={'Project description'}/>
-                    <Work style={learnCards} title={'Learning-Cards'} description={'Project description'}/>
+                    <Work style={todos} title={'Todolist'} description={'Project description'} link={linkTodos}/>
+                    <Work style={social} title={'Social-Network'} description={'Project description'} link={linkSocialNetwork}/>
+                    <Work style={learnCards} title={'Learning-Cards'} description={'Project description'} link={linkProjectCard}/>
                 </div>
             </div>
         </div>
