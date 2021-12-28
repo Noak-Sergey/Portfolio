@@ -9,7 +9,7 @@ export function Main() {
             <div className={styleContainer.container}>
                 <div className={style.hiText}>
                     <span>Hi There</span>
-                    <h1>I am Noak Sergey</h1>
+                    <h1>I am Sergey <span>Noak</span></h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div>
