@@ -4,7 +4,6 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {Works} from "./works/Works";
-import {DistantWork} from "./distantWork/DistantWork";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 
@@ -15,7 +14,6 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
-            {/*//<DistantWork/>*/}
             <Contacts/>
             <Footer/>
         </div>

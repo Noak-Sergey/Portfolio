@@ -10,6 +10,7 @@ import tsImg from "../assets/images/tsImg.png";
 import htmlImg from "../assets/images/htmlImg.png";
 import cssImg from "../assets/images/cssImg.png";
 import githubImg from "../assets/images/githubImg.png";
+import Fade from 'react-reveal/Fade';
 
 
 export function Skills() {
@@ -44,18 +45,36 @@ export function Skills() {
 
     return (
         <div className={style.skillsBlock}>
+
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={'Skills'}/>
+                <Fade>
+                    <Title text={'Skills'}/>
+                </Fade>
                 <div className={style.skills}>
-                    <Skill style={react} title={'React'} description={''}/>
-                    <Skill style={redux} title={'Redux'} description={''}/>
-                    <Skill style={js} title={'JS'} description={''}/>
-                    <Skill style={ts} title={'TS'} description={''}/>
-                    <Skill style={html} title={'HTML'} description={''}/>
-                    <Skill style={css} title={'CSS'} description={''}/>
-                    <Skill style={github} title={'Git & Github'} description={''}/>
+                    <Fade>
+                        <Skill style={react} title={'React'} description={''}/>
+                    </Fade>
+                    <Fade>
+                        <Skill style={redux} title={'Redux'} description={''}/>
+                    </Fade>
+                    <Fade>
+                        <Skill style={js} title={'JS'} description={''}/>
+                    </Fade>
+                    <Fade>
+                        <Skill style={ts} title={'TS'} description={''}/>
+                    </Fade>
+                    <Fade>
+                        <Skill style={html} title={'HTML'} description={''}/>
+                    </Fade>
+                    <Fade>
+                        <Skill style={css} title={'CSS'} description={''}/>
+                    </Fade>
+                    <Fade>
+                        <Skill style={github} title={'Git & Github'} description={''}/>
+                    </Fade>
                 </div>
             </div>
+
         </div>
     )
 }

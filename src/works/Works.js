@@ -6,7 +6,7 @@ import {Title} from '../common/components/title/Title';
 import todoImg from '../assets/images/todo.jpg';
 import socialImg from '../assets/images/social_network.jpg';
 import learnCardsImg from '../assets/images/learnCardImg.jpg';
-
+import Fade from 'react-reveal/Fade';
 
 export function Works() {
     const social = {
@@ -23,16 +23,26 @@ export function Works() {
 
     const linkProjectCard = 'https://noak-sergey.github.io/project-cards/'
     const linkSocialNetwork = 'https://github.com/Noak-Sergey'
-    const linkTodos = 'https://noak-sergey.github.io/project-cards/'
+    const linkTodos = 'https://github.com/Noak-Sergey'
 
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title text={'My works'}/>
+                <Fade>
+                    <Title text={'My works'}/>
+                </Fade>
                 <div className={style.works}>
-                    <Work style={todos} title={'Todolist'} description={'Project description'} link={linkTodos}/>
-                    <Work style={social} title={'Social-Network'} description={'Project description'} link={linkSocialNetwork}/>
-                    <Work style={learnCards} title={'Learning-Cards'} description={'Project description'} link={linkProjectCard}/>
+                    <Fade>
+                        <Work style={todos} title={'Todolist'} description={'Project description'} link={linkTodos}/>
+                    </Fade>
+                    <Fade>
+                        <Work style={social} title={'Social-Network'} description={'Project description'}
+                              link={linkSocialNetwork}/>
+                    </Fade>
+                    <Fade>
+                        <Work style={learnCards} title={'Learning-Cards'} description={'Project description'}
+                              link={linkProjectCard}/>
+                    </Fade>
                 </div>
             </div>
         </div>
