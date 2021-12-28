@@ -5,7 +5,7 @@ import style from './Work.module.scss';
 export function Work(props) {
 
     const pageOn = () => {
-        return (window.open(`${props.link}`))
+        return (window.open(props.link))
     }
 
     return (

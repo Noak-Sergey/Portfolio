@@ -22,7 +22,7 @@ export function Works() {
     }
 
     const linkProjectCard = 'https://noak-sergey.github.io/project-cards/'
-    const linkSocialNetwork = 'https://noak-sergey.github.io/project-cards/'
+    const linkSocialNetwork = 'https://github.com/Noak-Sergey'
     const linkTodos = 'https://noak-sergey.github.io/project-cards/'
 
     return (
