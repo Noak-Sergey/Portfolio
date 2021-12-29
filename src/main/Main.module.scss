@@ -1,15 +1,12 @@
 @import '../common/styles/sass/variables';
 
-
 .mainBlock {
   //height: 100vh;
   background-color: $bgColor;
 
   .hiText {
-    //border: 2px solid $primaryColor;
     width: 300px;
     color: $textColor;
-    //background-color: $primaryColor;
     margin: 30px auto;
     border-radius: 5px;
   }
