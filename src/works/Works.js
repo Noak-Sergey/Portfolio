@@ -26,7 +26,7 @@ export function Works() {
     const linkTodos = 'https://github.com/Noak-Sergey'
 
     return (
-        <div className={style.worksBlock}>
+        <div id='projects' className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <Fade>
                     <Title text={'My works'}/>
