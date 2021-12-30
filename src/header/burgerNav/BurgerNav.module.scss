@@ -1,10 +1,14 @@
 @import '../../common/styles/sass/variables';
 @import '../../common/styles/sass/mixins';
 
-.nav {
-  width: 300px;
-  @include flex(row, space-between, stretch, nowrap);
+.burgerNav {
+  width: 250px;
+  @include flex(column, space-between, stretch, nowrap);
   margin: auto 70px;
+
+  .burgerNavItems {
+
+  }
 
   a {
     color: $textColor;
@@ -20,7 +24,7 @@
   .active {
     color: $bgSecondColor;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 601px) {
     display: none;
   }
 }
