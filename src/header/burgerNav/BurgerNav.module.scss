@@ -2,28 +2,59 @@
 @import '../../common/styles/sass/mixins';
 
 .burgerNav {
-  width: 250px;
-  @include flex(column, space-between, stretch, nowrap);
-  margin: auto 70px;
+  width: 100%;
+  height: 100%;
+
 
   .burgerNavItems {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 0;
+    //background-color: silver;
+    @include flex(column, space-between, center, nowrap);
+    padding: 20px;
+    transform: translate(0, -150px);
+    transition: 0.5s;
 
-  }
+    a {
+      color: $textColor;
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
 
-  a {
-    color: $textColor;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: pointer;
+      &:hover {
+        color: $bgSecondColor;
+      }
+    }
 
-    &:hover {
+    .active {
       color: $bgSecondColor;
     }
   }
 
-  .active {
-    color: $bgSecondColor;
+  .show {
+    transform: translate(0, 0);
+    height: 150px;
+    //@include flex(column, space-between, stretch, nowrap);
   }
+
+  .burgerBtn {
+    width: 30px;
+    height: 30px;
+    //background-color: $primaryColor;
+    position: absolute;
+    top: 24px;
+    right: 10px;
+
+    .burgerIcon {
+      @include bgImg();
+      width: 30px;
+      height: 30px;
+    }
+  }
+
   @media screen and (min-width: 601px) {
     display: none;
   }

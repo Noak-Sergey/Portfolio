@@ -2,9 +2,8 @@
 @import '../../common/styles/sass/mixins';
 
 .nav {
-  width: 300px;
+  width: 400px;
   @include flex(row, space-between, stretch, nowrap);
-  margin: auto 70px;
 
   a {
     color: $textColor;
