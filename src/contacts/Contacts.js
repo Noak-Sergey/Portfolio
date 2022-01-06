@@ -20,7 +20,7 @@ export function Contacts() {
                             <ul>
                                 <li className={style.form_line}>
                                     <label htmlFor="name">Name</label>
-                                    <input type="text" id="name"/>
+                                    <input type="text" id="name" required/>
                                 </li>
                                 <li className={style.form_line}>
                                     <label htmlFor="phone">Phone</label>
@@ -28,7 +28,7 @@ export function Contacts() {
                                 </li>
                                 <li className={style.form_line}>
                                     <label htmlFor="email">Email</label>
-                                    <input type="email" id="email"/>
+                                    <input type="email" id="email" required/>
                                 </li>
                                 <li className={style.form_line}>
                                     <label htmlFor="message">Message</label>
