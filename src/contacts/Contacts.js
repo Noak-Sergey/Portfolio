@@ -7,13 +7,15 @@ import Fade from 'react-reveal/Fade';
 
 export function Contacts() {
     return (
-        <div id='contacts' className={style.ContactBlock}>
-            <div className={styleContainer.container}>
-                <div className={style.title}>
-                    <Fade left>
+        <div id='contacts' className={styleContainer.container}>
+            <div className={style.contactBlock}>
+
+                <Fade left>
+                    <div className={style.title}>
                         <Title text={'Contacts'}/>
-                    </Fade>
-                </div>
+                    </div>
+                </Fade>
+
                 <Fade right>
                     <div className={style.form_wrapper}>
                         <form>

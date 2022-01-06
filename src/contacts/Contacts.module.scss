@@ -1,11 +1,10 @@
 @import '../common/styles/sass/variables';
 @import '../common/styles/sass/mixins';
 
-.ContactBlock {
- // background-color: $bgColor;
+.contactBlock {
 
   .title {
-    margin: auto auto;
+    display: flex;
   }
 
   .form_wrapper {
@@ -15,7 +14,6 @@
     border-radius: 5px;
     font-size: 16px;
     border: 2px solid $primaryColor;
-
 
     ul {
       list-style-type: none;
