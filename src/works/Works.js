@@ -33,14 +33,14 @@ export function Works() {
                 </Fade>
                 <div className={style.works}>
                     <Fade>
-                        <Work style={todos} title={'Todolist'} description={'Project description'} link={linkTodos}/>
+                        <Work style={todos} title={'Todolist'} description={'lorem ipsum text'} link={linkTodos}/>
                     </Fade>
                     <Fade>
-                        <Work style={social} title={'Social-Network'} description={'Project description'}
+                        <Work style={social} title={'Social-Network'} description={'lorem ipsum text'}
                               link={linkSocialNetwork}/>
                     </Fade>
                     <Fade>
-                        <Work style={learnCards} title={'Learning-Cards'} description={'Project description'}
+                        <Work style={learnCards} title={'Learning-Cards'} description={'lorem ipsum text'}
                               link={linkProjectCard}/>
                     </Fade>
                 </div>
