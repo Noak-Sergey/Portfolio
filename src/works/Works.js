@@ -22,8 +22,8 @@ export function Works() {
     }
 
     const linkProjectCard = 'https://noak-sergey.github.io/project-cards/'
-    const linkSocialNetwork = 'https://github.com/Noak-Sergey'
-    const linkTodos = 'https://github.com/Noak-Sergey'
+    const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
+    const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
 
     return (
         <div id='projects' className={style.worksBlock}>
