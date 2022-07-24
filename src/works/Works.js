@@ -5,7 +5,7 @@ import {Work} from './work/Work';
 import {Title} from '../common/components/title/Title';
 import todoImg from '../assets/images/todo.jpg';
 import socialImg from '../assets/images/social_network.jpg';
-import learnCardsImg from '../assets/images/learnCardImg.jpg';
+import goCoronaImg from '../assets/images/goCorona.png';
 import Fade from 'react-reveal/Fade';
 
 export function Works() {
@@ -17,11 +17,11 @@ export function Works() {
         backgroundImage: `url(${todoImg})`,
     }
 
-    const learnCards = {
-        backgroundImage: `url(${learnCardsImg})`,
+    const goCorona = {
+        backgroundImage: `url(${goCoronaImg})`,
     }
 
-    const linkProjectCard = 'https://noak-sergey.github.io/project-cards/'
+    const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
     const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
     const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
 
@@ -33,16 +33,17 @@ export function Works() {
                 </Fade>
                 <div className={style.works}>
                     <Fade>
-                        <Work style={todos} title={'Todolist'} description={'lorem ipsum text'} link={linkTodos}/>
+                        <Work style={goCorona} title={'GoCorona'} description={'HTML/CSS/Adaptive'}
+                              link={linkGoCorona}/>
                     </Fade>
                     <Fade>
-                        <Work style={social} title={'Social-Network'} description={'lorem ipsum text'}
+                        <Work style={todos} title={'Todolist'} description={'TS/JS/React/Redux/Axios'} link={linkTodos}/>
+                    </Fade>
+                    <Fade>
+                        <Work style={social} title={'Social-Network'} description={'TS/JS/React/Redux/Axios and still in development UI'}
                               link={linkSocialNetwork}/>
                     </Fade>
-                    <Fade>
-                        <Work style={learnCards} title={'Learning-Cards'} description={'lorem ipsum text'}
-                              link={linkProjectCard}/>
-                    </Fade>
+                    
                 </div>
             </div>
         </div>
