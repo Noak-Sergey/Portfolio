@@ -7,6 +7,7 @@ import todoImg from '../assets/images/todo.jpg';
 import socialImg from '../assets/images/social_network.jpg';
 import goCoronaImg from '../assets/images/goCorona.png';
 import marvelImg from '../assets/images/marvel-logo.png';
+import foodImg from '../assets/images/food-logo.png';
 import Fade from 'react-reveal/Fade';
 
 export function Works() {
@@ -26,10 +27,15 @@ export function Works() {
         backgroundImage: `url(${marvelImg})`,
     }
 
+    const FoodProject = {
+        backgroundImage: `url(${foodImg})`,
+    }
+
     const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
     const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
     const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
     const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
+    const linkFood = 'https://noak-sergey.github.io/food_project/'
 
     return (
         <div id='projects' className={style.worksBlock}>
@@ -42,13 +48,21 @@ export function Works() {
                         <Work style={goCorona} title={'GoCorona'} description={'HTML/CSS/Adaptive'}
                               link={linkGoCorona}/>
                     </Fade>
+
+                    <Fade>
+                        <Work style={FoodProject} title={'Food-project'} description={'HTML/CSS/JS'}
+                              link={linkFood}/>
+                    </Fade>
+
                     <Fade>
                         <Work style={todos} title={'Todolist'} description={'TS/JS/React/Redux/Axios'} link={linkTodos}/>
                     </Fade>
+
                     <Fade>
                         <Work style={social} title={'Social-Network'} description={'TS/JS/React/Redux/Axios and still in development UI'}
                               link={linkSocialNetwork}/>
                     </Fade>
+
                     <Fade>
                         <Work style={marvelClass} title={'Marvel_class'} description={'JS/React/Redux/Fetch'}
                               link={linkMarvelClass}/>
