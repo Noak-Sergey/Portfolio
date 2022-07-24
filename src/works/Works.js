@@ -8,6 +8,7 @@ import socialImg from '../assets/images/social_network.jpg';
 import goCoronaImg from '../assets/images/goCorona.png';
 import marvelImg from '../assets/images/marvel-logo.png';
 import foodImg from '../assets/images/food-logo.png';
+import employeesImg from '../assets/images/employees-pr.png';
 import Fade from 'react-reveal/Fade';
 
 export function Works() {
@@ -27,8 +28,12 @@ export function Works() {
         backgroundImage: `url(${marvelImg})`,
     }
 
-    const FoodProject = {
+    const foodProject = {
         backgroundImage: `url(${foodImg})`,
+    }
+
+    const employeesProject = {
+        backgroundImage: `url(${employeesImg})`,
     }
 
     const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
@@ -36,6 +41,7 @@ export function Works() {
     const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
     const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
     const linkFood = 'https://noak-sergey.github.io/food_project/'
+    const linkEmployees = 'https://noak-sergey.github.io/employees-project/'
 
     return (
         <div id='projects' className={style.worksBlock}>
@@ -50,8 +56,13 @@ export function Works() {
                     </Fade>
 
                     <Fade>
-                        <Work style={FoodProject} title={'Food-project'} description={'HTML/CSS/JS'}
+                        <Work style={foodProject} title={'Food-project'} description={'HTML/CSS/JS'}
                               link={linkFood}/>
+                    </Fade>
+
+                    <Fade>
+                        <Work style={employeesProject} title={'Employees'} description={'HTML/CSS/JS/React'}
+                              link={linkEmployees}/>
                     </Fade>
 
                     <Fade>
