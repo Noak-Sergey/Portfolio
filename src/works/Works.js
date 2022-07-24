@@ -6,6 +6,7 @@ import {Title} from '../common/components/title/Title';
 import todoImg from '../assets/images/todo.jpg';
 import socialImg from '../assets/images/social_network.jpg';
 import goCoronaImg from '../assets/images/goCorona.png';
+import marvelImg from '../assets/images/marvel-logo.png';
 import Fade from 'react-reveal/Fade';
 
 export function Works() {
@@ -21,9 +22,14 @@ export function Works() {
         backgroundImage: `url(${goCoronaImg})`,
     }
 
+    const marvelClass = {
+        backgroundImage: `url(${marvelImg})`,
+    }
+
     const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
     const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
     const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
+    const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
 
     return (
         <div id='projects' className={style.worksBlock}>
@@ -42,6 +48,10 @@ export function Works() {
                     <Fade>
                         <Work style={social} title={'Social-Network'} description={'TS/JS/React/Redux/Axios and still in development UI'}
                               link={linkSocialNetwork}/>
+                    </Fade>
+                    <Fade>
+                        <Work style={marvelClass} title={'Marvel_class'} description={'JS/React/Redux/Fetch'}
+                              link={linkMarvelClass}/>
                     </Fade>
                     
                 </div>
