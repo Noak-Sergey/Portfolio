@@ -9,6 +9,7 @@ import goCoronaImg from '../assets/images/goCorona.png';
 import marvelImg from '../assets/images/marvel-logo.png';
 import foodImg from '../assets/images/food-logo.png';
 import employeesImg from '../assets/images/employees-pr.png';
+import orderImg from '../assets/images/order-logo.png';
 import Fade from 'react-reveal/Fade';
 
 export function Works() {
@@ -36,12 +37,17 @@ export function Works() {
         backgroundImage: `url(${employeesImg})`,
     }
 
+    const ordersProject = {
+        backgroundImage: `url(${orderImg})`,
+    }
+
     const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
     const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
     const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
     const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
     const linkFood = 'https://noak-sergey.github.io/food_project/'
     const linkEmployees = 'https://noak-sergey.github.io/employees-project/'
+    const linkOrdersProject = 'https://noak-sergey.github.io/test_QATesters/'
 
     return (
         <div id='projects' className={style.worksBlock}>
@@ -72,6 +78,11 @@ export function Works() {
                     <Fade>
                         <Work style={social} title={'Social-Network'} description={'TS/JS/React/Redux/Axios and still in development UI'}
                               link={linkSocialNetwork}/>
+                    </Fade>
+
+                    <Fade>
+                        <Work style={ordersProject} title={'Orders-project'} description={'TS/JS/React/Redux/Bootstrap and still logic development'}
+                              link={linkOrdersProject}/>
                     </Fade>
 
                     <Fade>
