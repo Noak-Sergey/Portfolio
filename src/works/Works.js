@@ -10,6 +10,8 @@ import marvelImg from '../assets/images/marvel-logo.png';
 import foodImg from '../assets/images/food-logo.png';
 import employeesImg from '../assets/images/employees-pr.png';
 import orderImg from '../assets/images/order-logo.png';
+import bakeryImg from '../assets/images/bakery-logo.png';
+import guitarPlayerImg from '../assets/images/guitarPlayer-logo.png';
 import Fade from 'react-reveal/Fade';
 
 export function Works() {
@@ -41,6 +43,14 @@ export function Works() {
         backgroundImage: `url(${orderImg})`,
     }
 
+    const bakery = {
+        backgroundImage: `url(${bakeryImg})`,
+    }
+
+    const guitarPlayer = {
+        backgroundImage: `url(${guitarPlayerImg})`,
+    }
+
     const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
     const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
     const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
@@ -48,6 +58,8 @@ export function Works() {
     const linkFood = 'https://noak-sergey.github.io/food_project/'
     const linkEmployees = 'https://noak-sergey.github.io/employees-project/'
     const linkOrdersProject = 'https://noak-sergey.github.io/test_QATesters/'
+    const linkBakery = 'https://noak-sergey.github.io/bakery/'
+    const linkGuitarPlayer = 'https://noak-sergey.github.io/portfolio-guitarPlayer/'
 
     return (
         <div id='projects' className={style.worksBlock}>
@@ -56,6 +68,17 @@ export function Works() {
                     <Title text={'My works'}/>
                 </Fade>
                 <div className={style.works}>
+
+                    <Fade>
+                        <Work style={bakery} title={'Bakery'} description={'HTML/CSS'}
+                              link={linkBakery}/>
+                    </Fade>
+
+                    <Fade>
+                        <Work style={guitarPlayer} title={'Portfolio guitar player'} description={'HTML/CSS/Adaptive'}
+                              link={linkGuitarPlayer}/>
+                    </Fade>
+
                     <Fade>
                         <Work style={goCorona} title={'GoCorona'} description={'HTML/CSS/Adaptive'}
                               link={linkGoCorona}/>
