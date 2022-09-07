@@ -105,7 +105,7 @@ export function Works() {
                     </Fade>
 
                     <Fade>
-                        <Work style={marvelFunc} title={'Marvel-func'} description={'JS/React/Fetch'}
+                        <Work style={marvelFunc} title={'Marvel-func'} description={'JS/React/Fetch/React-Router-Dom'}
                               link={linkMarvelFunc}/>
                     </Fade>
 
