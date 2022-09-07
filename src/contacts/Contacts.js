@@ -1,8 +1,12 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
+
+import {Title} from "../common/components/title/Title";
+
 import style from './Contacts.module.scss';
 import styleContainer from './../common/styles/Container.module.css';
-import {Title} from "../common/components/title/Title";
-import Fade from 'react-reveal/Fade';
+
+
 
 
 export function Contacts() {

@@ -1,9 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import style from './Works.module.scss';
-import styleContainer from '../common/styles/Container.module.css'
-
 import {Work} from './work/Work';
 import {Title} from '../common/components/title/Title';
 
@@ -16,6 +13,9 @@ import marvelClassImg from '../assets/images/marvel-logo.png';
 import marvelFuncImg from '../assets/images/marvelFunc-logo.png';
 import todoImg from '../assets/images/todo.jpg';
 import socialImg from '../assets/images/social_network.jpg';
+
+import style from './Works.module.scss';
+import styleContainer from '../common/styles/Container.module.css'
 
 
 export function Works() {

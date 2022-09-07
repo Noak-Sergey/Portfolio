@@ -1,8 +1,9 @@
 import React from "react";
-import style from './Skills.module.scss';
-import styleContainer from '../common/styles/Container.module.css'
+import Fade from 'react-reveal/Fade';
+
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
+
 import reactImg from "../assets/images/reactImg2.png";
 import reduxImg from "../assets/images/reduxImg.svg";
 import jsImg from "../assets/images/jsImg.png";
@@ -10,7 +11,10 @@ import tsImg from "../assets/images/tsImg.png";
 import htmlImg from "../assets/images/htmlImg.png";
 import cssImg from "../assets/images/cssImg.png";
 import githubImg from "../assets/images/githubImg.png";
-import Fade from 'react-reveal/Fade';
+
+import style from './Skills.module.scss';
+import styleContainer from '../common/styles/Container.module.css'
+
 
 
 export function Skills() {
