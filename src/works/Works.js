@@ -1,34 +1,34 @@
 import React from 'react';
-import style from './Works.module.scss';
-import styleContainer from '../common/styles/Container.module.css'
-import {Work} from './work/Work';
-import {Title} from '../common/components/title/Title';
-import todoImg from '../assets/images/todo.jpg';
-import socialImg from '../assets/images/social_network.jpg';
-import goCoronaImg from '../assets/images/goCorona.png';
-import marvelImg from '../assets/images/marvel-logo.png';
-import foodImg from '../assets/images/food-logo.png';
-import employeesImg from '../assets/images/employees-pr.png';
-import orderImg from '../assets/images/order-logo.png';
-import bakeryImg from '../assets/images/bakery-logo.png';
-import guitarPlayerImg from '../assets/images/guitarPlayer-logo.png';
 import Fade from 'react-reveal/Fade';
 
+import style from './Works.module.scss';
+import styleContainer from '../common/styles/Container.module.css'
+
+import {Work} from './work/Work';
+import {Title} from '../common/components/title/Title';
+
+import bakeryImg from '../assets/images/bakery-logo.png';
+import guitarPlayerImg from '../assets/images/guitarPlayer-logo.png';
+import goCoronaImg from '../assets/images/goCorona.png';
+import foodImg from '../assets/images/food-logo.png';
+import employeesImg from '../assets/images/employees-pr.png';
+import marvelClassImg from '../assets/images/marvel-logo.png';
+import marvelFuncImg from '../assets/images/marvelFunc-logo.png';
+import todoImg from '../assets/images/todo.jpg';
+import socialImg from '../assets/images/social_network.jpg';
+
+
 export function Works() {
-    const social = {
-        backgroundImage: `url(${socialImg})`,
+    const bakery = {
+        backgroundImage: `url(${bakeryImg})`,
     }
 
-    const todos = {
-        backgroundImage: `url(${todoImg})`,
+    const guitarPlayer = {
+        backgroundImage: `url(${guitarPlayerImg})`,
     }
 
     const goCorona = {
         backgroundImage: `url(${goCoronaImg})`,
-    }
-
-    const marvelClass = {
-        backgroundImage: `url(${marvelImg})`,
     }
 
     const foodProject = {
@@ -39,28 +39,33 @@ export function Works() {
         backgroundImage: `url(${employeesImg})`,
     }
 
-    const ordersProject = {
-        backgroundImage: `url(${orderImg})`,
+    const marvelClass = {
+        backgroundImage: `url(${marvelClassImg})`,
     }
 
-    const bakery = {
-        backgroundImage: `url(${bakeryImg})`,
+    const marvelFunc = {
+        backgroundImage: `url(${marvelFuncImg})`,
     }
 
-    const guitarPlayer = {
-        backgroundImage: `url(${guitarPlayerImg})`,
+    const todos = {
+        backgroundImage: `url(${todoImg})`,
     }
 
-    const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
-    const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
-    const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
-    const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
-    const linkFood = 'https://noak-sergey.github.io/food_project/'
-    const linkEmployees = 'https://noak-sergey.github.io/employees-project/'
-    const linkOrdersProject = 'https://noak-sergey.github.io/test_QATesters/'
+    const social = {
+        backgroundImage: `url(${socialImg})`,
+    }
+
     const linkBakery = 'https://noak-sergey.github.io/bakery/'
     const linkGuitarPlayer = 'https://noak-sergey.github.io/portfolio-guitarPlayer/'
-
+    const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
+    const linkFood = 'https://noak-sergey.github.io/food_project/'
+    const linkEmployees = 'https://noak-sergey.github.io/employees-project/'
+    const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
+    const linkMarvelFunc = 'https://noak-sergey.github.io/marvel_stars_func/'
+    const linkTodos = 'https://noak-sergey.github.io/TodoComplete/'
+    const linkSocialNetwork = 'https://noak-sergey.github.io/Social-Network/'
+    
+    
     return (
         <div id='projects' className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
@@ -95,22 +100,22 @@ export function Works() {
                     </Fade>
 
                     <Fade>
+                        <Work style={marvelClass} title={'Marvel-class'} description={'JS/React/Fetch'}
+                              link={linkMarvelClass}/>
+                    </Fade>
+
+                    <Fade>
+                        <Work style={marvelFunc} title={'Marvel-func'} description={'JS/React/Fetch'}
+                              link={linkMarvelFunc}/>
+                    </Fade>
+
+                    <Fade>
                         <Work style={todos} title={'Todolist'} description={'TS/JS/React/Redux/Axios'} link={linkTodos}/>
                     </Fade>
 
                     <Fade>
                         <Work style={social} title={'Social-Network'} description={'TS/JS/React/Redux/Axios and still in development UI'}
                               link={linkSocialNetwork}/>
-                    </Fade>
-
-                    <Fade>
-                        <Work style={ordersProject} title={'Orders-project'} description={'TS/JS/React/Redux/Bootstrap and still logic development'}
-                              link={linkOrdersProject}/>
-                    </Fade>
-
-                    <Fade>
-                        <Work style={marvelClass} title={'Marvel_class'} description={'JS/React/Redux/Fetch'}
-                              link={linkMarvelClass}/>
                     </Fade>
                     
                 </div>
