@@ -9,7 +9,7 @@ import styleContainer from './../common/styles/Container.module.css';
 
 
 export function Contacts() {
-
+    
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -21,7 +21,10 @@ export function Contacts() {
         .catch(err => {
             console.log(err);
             alert('Something went wrong !!!');
-        });
+        })
+        .finally(() => {
+            e.target.reset();
+        })
     };
 
     return (
