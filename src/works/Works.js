@@ -9,6 +9,7 @@ import guitarPlayerImg from '../assets/images/guitarPlayer-logo.png';
 import goCoronaImg from '../assets/images/goCorona.png';
 import foodImg from '../assets/images/food-logo.png';
 import labsalesImg from '../assets/images/labsalesImg.png';
+import doct24Img from '../assets/images/doct24-test.png';
 import employeesImg from '../assets/images/employees-pr.png';
 import marvelClassImg from '../assets/images/marvel-logo.png';
 import marvelFuncImg from '../assets/images/marvelFunc-logo.png';
@@ -40,6 +41,10 @@ export function Works() {
         backgroundImage: `url(${labsalesImg})`,
     }
 
+    const doct24Project = {
+        backgroundImage: `url(${doct24Img})`,
+    }
+
     const employeesProject = {
         backgroundImage: `url(${employeesImg})`,
     }
@@ -65,6 +70,7 @@ export function Works() {
     const linkGoCorona = 'https://noak-sergey.github.io/html-css-gocorona/'
     const linkFood = 'https://noak-sergey.github.io/food_project/'
     const linkLabsales = 'https://noak-sergey.github.io/labsales-test/'
+    const linkDoct24 = 'https://noak-sergey.github.io/doct24-test/'
     const linkEmployees = 'https://noak-sergey.github.io/employees-project/'
     const linkMarvelClass = 'https://noak-sergey.github.io/marvel-heroes-class/'
     const linkMarvelFunc = 'https://noak-sergey.github.io/marvel_stars_func/'
@@ -103,6 +109,11 @@ export function Works() {
                     <Fade>
                         <Work style={labsalesProject} title={'labsales-test'} description={'HTML/CSS/JS'}
                               link={linkLabsales}/>
+                    </Fade>
+
+                    <Fade>
+                        <Work style={doct24Project} title={'doct24-test'} description={'HTML/Bootstrap/JS/React/Redux'}
+                              link={linkDoct24}/>
                     </Fade>
 
                     <Fade>
