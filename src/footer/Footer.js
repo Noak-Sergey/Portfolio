@@ -36,7 +36,7 @@ export function Footer() {
                 </Fade>
                 <Fade bottom>
                     <div className={style.copyright}>
-                        © 2021 Sergey Noak. All rights reserved.
+                        © 2022 Sergey Noak. All rights reserved.
                     </div>
                 </Fade>
 
