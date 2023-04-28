@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ba584460.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a6f528cd.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a6f528cd.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.26ff6d54.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.26ff6d54.js.map",
-    "static/js/2.d0ab5ed3.chunk.js": "/Portfolio/static/js/2.d0ab5ed3.chunk.js",
-    "static/js/2.d0ab5ed3.chunk.js.map": "/Portfolio/static/js/2.d0ab5ed3.chunk.js.map",
-    "static/js/3.5610de52.chunk.js": "/Portfolio/static/js/3.5610de52.chunk.js",
-    "static/js/3.5610de52.chunk.js.map": "/Portfolio/static/js/3.5610de52.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.3e59515a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.1e526400.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1e526400.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.915b8027.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.915b8027.js.map",
+    "static/js/2.112d1a89.chunk.js": "/Portfolio/static/js/2.112d1a89.chunk.js",
+    "static/js/2.112d1a89.chunk.js.map": "/Portfolio/static/js/2.112d1a89.chunk.js.map",
+    "static/js/3.4b7cf452.chunk.js": "/Portfolio/static/js/3.4b7cf452.chunk.js",
+    "static/js/3.4b7cf452.chunk.js.map": "/Portfolio/static/js/3.4b7cf452.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.ba584460.chunk.css.map": "/Portfolio/static/css/main.ba584460.chunk.css.map",
-    "static/js/2.d0ab5ed3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d0ab5ed3.chunk.js.LICENSE.txt",
+    "static/css/main.3e59515a.chunk.css.map": "/Portfolio/static/css/main.3e59515a.chunk.css.map",
+    "static/js/2.112d1a89.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.112d1a89.chunk.js.LICENSE.txt",
     "static/media/bakery-logo.86bc82c6.png": "/Portfolio/static/media/bakery-logo.86bc82c6.png",
+    "static/media/doct24-test.e2ac9768.png": "/Portfolio/static/media/doct24-test.e2ac9768.png",
     "static/media/employees-pr.2af6ee2c.png": "/Portfolio/static/media/employees-pr.2af6ee2c.png",
     "static/media/food-logo.f693f149.png": "/Portfolio/static/media/food-logo.f693f149.png",
     "static/media/goCorona.eb7f22f6.png": "/Portfolio/static/media/goCorona.eb7f22f6.png",
     "static/media/guitarPlayer-logo.6815a6e3.png": "/Portfolio/static/media/guitarPlayer-logo.6815a6e3.png",
+    "static/media/labsalesImg.e10850a9.png": "/Portfolio/static/media/labsalesImg.e10850a9.png",
     "static/media/marvel-logo.7d6d1d81.png": "/Portfolio/static/media/marvel-logo.7d6d1d81.png",
     "static/media/marvelFunc-logo.e5217338.png": "/Portfolio/static/media/marvelFunc-logo.e5217338.png",
     "static/media/photoMy.fffb5c0c.jpg": "/Portfolio/static/media/photoMy.fffb5c0c.jpg",
@@ -24,9 +26,9 @@
     "static/media/social_network.b85d9ab5.jpg": "/Portfolio/static/media/social_network.b85d9ab5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26ff6d54.js",
-    "static/js/2.d0ab5ed3.chunk.js",
-    "static/css/main.ba584460.chunk.css",
-    "static/js/main.a6f528cd.chunk.js"
+    "static/js/runtime-main.915b8027.js",
+    "static/js/2.112d1a89.chunk.js",
+    "static/css/main.3e59515a.chunk.css",
+    "static/js/main.1e526400.chunk.js"
   ]
 }
